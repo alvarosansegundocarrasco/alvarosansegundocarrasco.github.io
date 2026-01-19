@@ -6,3 +6,27 @@ p
 {
     text-spacing: auto
 }
+@media screen and (max-width: 700px)
+{
+    .column
+    {
+        width: 50%
+    }
+
+    body
+    {
+        background-color: peru
+    }
+}
+@media screen and (min-width: 700px) 
+{
+    .column 
+    {
+        width: 100%
+    }
+
+    body 
+    {
+        background-color: blanchedalmond
+    }
+}
